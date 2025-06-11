@@ -16,10 +16,10 @@ function Footer(){
                 <div>
                     {/* links */}
                     <div className="flex flex-col">
-                      <a href="#home" className="text-black hover:text-green-800">Home</a>
-                      <a href="#About" className="text-black hover:text-green-800">About</a>
-                      <a href="#Contact Us " className="text-black hover:text-green-800">Contact Us</a>
-                      <a href="#Cards" className="text-black hover:text-green-800">Cards</a>
+                      <a href="#home" className="text-black hover:text-green-800 hover:underline active:text-xl active:text-red-500">Home</a>
+                      <a href="#About" className="text-black hover:text-green-800 hover:underline active:text-xl active:text-red-500">About</a>
+                      <a href="#Cards" className="text-black hover:text-green-800 hover:underline active:text-xl active:text-red-500">Cards</a>
+                      <a href="#Contact Us" className="text-black hover:text-green-800 hover:underline active:text-xl active:text-red-500">Contact Us</a>
                     </div>
                 </div>
             </footer>
