@@ -6,8 +6,8 @@ function Footer(){
 
     return(
         <>
-        <div className="text-gray-500 bg-gray-100  p-4 m-4  ">
-            <footer className="flex flex-row justify-between m-2">
+        <div className="text-gray-500 bg-gray-200  p-4  ">
+            <footer className="flex flex-row justify-evenly m-2">
                 {/* logo */}
                 <div>
                      <div className="text-black text-3xl font-serif font-bold">BHATTARAI</div>
