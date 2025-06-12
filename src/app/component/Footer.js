@@ -6,7 +6,7 @@ function Footer(){
 
     return(
         <>
-        <footer className= "   lg:text-gray-500 bg-gray-800  p-4 md:p-2 md:w-full sm:w-full bottom-0 left-0 right-0 sm:text-white md:text-amber-400 text-blue-400">
+        <footer className= "   lg:text-gray-500 bg-gray-800  p-4 md:p-2 md:w-full sm:w-full md:bottom-0 sm:bottom-0 left-0 right-0 sm:text-white md:text-amber-400 text-blue-400">
             <div className="flex lg:flex-row sm:flex-col justify-evenly m-2">
                 {/* logo */}
                 <div>
