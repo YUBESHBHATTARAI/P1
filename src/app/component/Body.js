@@ -6,12 +6,11 @@ function Body(){
 
     return(
         <>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-evenly items-center min-h-screen">
         {/* left */}
         <div>
-        <div className="text-2xl font-cursive overflow-auto">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi praesentium dolorum pariatur eveniet distinctio laboriosam delectus quisquam, vel eius maiores explicabo odit ab sapiente iure, et omnis rem earum fuga alias! Cupiditate at minus labore dicta alias repellendus deserunt temporibus ipsum id facere. Tenetur ut animi maiores dolorem. Dolore nam similique repudiandae illum ex quas excepturi? Nostrum itaque eos inventore consequuntur deserunt excepturi sit odio illum, delectus, totam vitae commodi perferendis, necessitatibus deleniti dolorem tempore aut officia eum. Labore vel commodi enim odio repudiandae tenetur libero deleniti illo perferendis nam architecto nesciunt eveniet accusamus doloribus, beatae, adipisci esse molestias. Assumenda.
-        </div>
+        <div className="text-2xl font-sans p-2 mx-1 h-[400px] w-[600px]  rounded-md bg-red-300 ">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio quos quasi expedita ipsum pariatur sunt ea architecto modi nihil, culpa accusamus cumque ipsam fugiat? Earum neque praesentium in consequuntur.        </div>
         </div>
         {/* right */}
         <div>

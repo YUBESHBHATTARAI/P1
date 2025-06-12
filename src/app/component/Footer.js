@@ -6,8 +6,8 @@ function Footer(){
 
     return(
         <>
-        <div className="text-gray-500 bg-gray-200  p-4  ">
-            <footer className="flex flex-row justify-evenly m-2">
+        <footer className="text-gray-500 bg-gray-800  p-4 block w-full ">
+            <div className="flex flex-row justify-evenly m-2">
                 {/* logo */}
                 <div>
                      <div className="text-black text-3xl font-serif font-bold">BHATTARAI</div>
@@ -22,15 +22,16 @@ function Footer(){
                       <a href="#Contact Us" className="text-black hover:text-green-800 hover:underline active:text-xl active:text-red-500">Contact Us</a>
                     </div>
                 </div>
-            </footer>
+            </div>
+            <hr />
             <div className="text-center mt-4">
                 {new Date().getFullYear()} &copy; All rights reserved.
-            </div>
-            <div  className="text-center mt-4">
+            
+            
                 <h1 className="text-black">Developed by <span className="text-green-800 italic">Yubesh Bhattarai</span></h1>
             </div>
             
-        </div>
+        </footer>
         </>
     )
 
