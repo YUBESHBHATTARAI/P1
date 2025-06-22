@@ -1,13 +1,15 @@
 "use client";
 import React from "react";
-
 function Footer(){
+
+
+
 
 
     return(
         <>
-        <footer className= "   lg:text-gray-500 bg-gray-800  p-4 md:p-2 md:w-full sm:w-full md:bottom-0 sm:bottom-0 left-0 right-0 sm:text-white md:text-amber-400 text-blue-400">
-            <div className="flex lg:flex-row sm:flex-col justify-evenly m-2">
+        <footer className= "  m-1 w-[680px] bg-gray-200 text-black p-6 lg:w-full">
+            <div className="  flex flex-col  md:flex-row md:justify-evenly md:space-y-1 lg:"> 
                 {/* logo */}
                 <div>
                      <div className="text-black text-3xl font-serif font-bold">BHATTARAI</div>
@@ -15,7 +17,7 @@ function Footer(){
                 {/* others */}
                 <div>
                     {/* links */}
-                    <div className="flex flex-col">
+                    <div className="flex flex-col my-1">
                       <a href="#home" className="text-black hover:text-green-800 hover:underline active:text-xl active:text-red-500">Home</a>
                       <a href="#About" className="text-black hover:text-green-800 hover:underline active:text-xl active:text-red-500">About</a>
                       <a href="#Cards" className="text-black hover:text-green-800 hover:underline active:text-xl active:text-red-500">Cards</a>
