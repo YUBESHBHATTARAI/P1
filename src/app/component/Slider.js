@@ -29,14 +29,14 @@ const data=[
     },
     {
         id:5,
-        name:"yubesh",
+        name:"efer",
         role:"developer",
         img:"/all.png",
     },
     {
         id:6,
-        name:"yubesh",
-        role:"developer",
+        name:"dwefw",
+        role:"tryytujtui",
         img:"/all.png",
     },
 ]
@@ -53,7 +53,7 @@ export default function Slider(){
              } 
              ,[] )
                   
-
+ 
     return(
         <>
         <div>

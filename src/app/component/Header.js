@@ -11,7 +11,7 @@ function Header(){
 
     return( 
         <div >
-        <div className= { `${ isColor ? " bg-black text-white" : " bg-white text-black "} flex justify-evenly items-center min-h-[80px] backdrop-blur-md bg-opacity-50 p-2 fixed top-0 left-0 right-0 z-50`}>
+        <div className= { `${ isColor ? " bg-black text-white" : " bg-white text-black "} flex justify-evenly items-center min-h-[60px] backdrop-blur-md bg-opacity-50 p-2 fixed top-0 left-0 right-0 z-50`}>
             {/* logo */}
             <div>
                BHATTARAI
