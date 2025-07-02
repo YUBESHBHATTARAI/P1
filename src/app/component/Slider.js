@@ -10,31 +10,31 @@ const data=[
         img:"/all.png",
     },
     {
-        id:1,
+        id:2,
         name:"yabush",
         role:"scientit",
         img:"/all.png",
     },
     {
-        id:1,
+        id:3,
         name:"sachibn",
         role:"behula ",
         img:"/all.png",
     },
     {
-        id:1,
+        id:4,
         name:"sachdgfg",
         role:"feuffg",
         img:"/all.png",
     },
     {
-        id:1,
+        id:5,
         name:"yubesh",
         role:"developer",
         img:"/all.png",
     },
     {
-        id:1,
+        id:6,
         name:"yubesh",
         role:"developer",
         img:"/all.png",
@@ -42,9 +42,17 @@ const data=[
 ]
 
 export default function Slider(){
-      const [currentdata,setCurrentdata]=useState(0)
-
-
+      const [currentdata,setCurrentdata]=useState(0);
+        useEffect(
+            ()=>{
+            const interval =setInterval( ()=>
+                setCurrentdata((prev)=>(prev==data.length-1 ? 0 : prev+1 ))
+                ,2000
+            )
+            return()=>clearInterval(interval)  
+             } 
+             ,[] )
+                  
 
     return(
         <>
@@ -52,15 +60,15 @@ export default function Slider(){
             <div className=" flex flex-col justify-center items-center">
                 {/* image container */}
                 <div className=" h-40 w-40 ">
-                  <img src="./all.png" />
+                  <img src={data[currentdata].img} />
 
                 </div>
                {/* text container */}
                <div>
-                  <h1>Name</h1>
-                  <p>role</p>
+                  <h1>{data[currentdata].name}</h1>
+                  <p>{data[currentdata].role}</p>
                </div>
-               h1
+             
             </div>
             
             </div></>
