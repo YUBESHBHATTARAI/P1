@@ -3,9 +3,6 @@ import React from "react";
 function Footer(){
 
 
-
-
-
     return(
         <>
         <footer className= "  m-1 w-[680px] bg-gray-200 text-black p-6 lg:w-full">
